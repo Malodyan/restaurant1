@@ -1,1 +1,446 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+@font-face {
+    font-family: 'Gentium Book Basic';
+    src: url('../fonts/GentiumBookBasic-Bold.eot');
+    src: url('../fonts/GentiumBookBasic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GentiumBookBasic-Bold.woff2') format('woff2'),
+        url('../fonts/GentiumBookBasic-Bold.woff') format('woff'),
+        url('../fonts/GentiumBookBasic-Bold.ttf') format('truetype'),
+        url('../fonts/GentiumBookBasic-Bold.svg#GentiumBookBasic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 140px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+    padding: 0 20px;
+}
+
+.nav-item::before {
+    display: block;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+    content: "";
+    transition: 1s;
+}
+
+.nav-item:hover::before {
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.708);
+}
+
+.social_icons {
+    list-style-type: none;
+    width: 120px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.h2 {
+    margin: 120px auto 0;
+    opacity: 0.922;
+    width: 970px;
+    font-size: 80px;
+    color: #ffffff;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    filter: drop-shadow(0.469px 0.883px 1px rgba(1, 1, 1, 0.64));
+}
+
+.h2 img {
+    margin: 5px auto;
+}
+
+.button1 {
+    opacity: 0.562;
+    width: 228px;
+    height: 57px;
+    background-color: rgba(0, 0, 0, 0.7019607843137254);
+    border: 1px solid #000000;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-style: normal;
+    transition: 0.5s;
+}
+
+.button1:hover {
+    background-color: #43474A;
+}
+
+.button2 {
+    opacity: 0.562;
+    width: 228px;
+    height: 57px;
+    background-color: rgba(255, 255, 255, 0.2784313725490196);
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    background-color: #D3D4D5;
+    color: white;
+}
+
+/* -----------------------SECTION 1------------------------- */
+.sec1 {
+    background-image: url(../img/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.sec1 .h3 {
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+}
+
+.divider {
+    margin: 30px 0;
+}
+
+.sec1 p {
+    width: 414px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.sec1 .cook {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+/* ----------------------------SECTION 2------------------------- */
+.sec2 {
+    background-image: url(../img/sec2bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sec2 .ing {
+    padding: 70px 60px 65px 65px;
+    opacity: 0.671;
+    background-color: #000000;
+}
+
+.sec2 .h3 {
+    margin-bottom: 15px;
+
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+}
+
+.sec2 .ing img {
+    width: 30%;
+}
+
+.sec2 p {
+    margin-bottom: 70px;
+}
+
+/* ---------sec3---------- */
+
+#sec3 {
+    background-image: url(../img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+#sec3 .block {
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+}
+
+#sec3 .special {
+    position: absolute;
+    background-color: #cc9900;
+    color: white;
+    padding: 5px;
+    top: -35px;
+    right: 0;
+}
+
+#sec3 h2 {
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+    text-align: center;
+}
+
+#sec3 .brd {
+    border: 1px solid #cc9900;
+}
+
+#sec3 img {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#sec3 h3 {
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+#sec3 p {
+    font-weight: 400;
+    font-family: "Lato";
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 10px;
+}
+
+#sec3 .orange {
+    color: #cc9900;
+    border-bottom: 1px solid #cc9900;
+}
+
+#sec3 .st {
+    margin-left: 160px;
+}
+
+/* ------------------sec4-------------- */
+#sec4 {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+#sec4 .dark {
+    width: 700px;
+    margin: 0 auto;
+    padding: 80px 50px;
+    background-color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+}
+
+.dark h2 {
+    margin-bottom: 25px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+}
+
+.dark p {
+    position: relative;
+    margin: 0 50px;
+    line-height: 30px;
+}
+
+.dark .first {
+    margin-bottom: 30px;
+}
+
+.dark .second {
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+/* ------------------sec5------------ */
+#sec5 {
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+#sec5 .imgs {
+    flex-wrap: wrap;
+}
+
+#sec5 .imgs img {
+    width: 250px;
+}
+
+#sec5 h2 {
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One", serif;
+}
+
+#sec5 .text-center img {
+    margin: 25px 0;
+}
+
+#sec5 .w-400 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#sec5 .row {
+    margin-bottom: 30px;
+}
+
+#sec5 label {
+    display: block;
+    text-align: left;
+    color: #cc9900;
+    font-weight: 700;
+}
+
+#sec5 button {
+    opacity: 0.980;
+    width: 200px;
+    height: 36px;
+    background-color: rgba(200, 159, 45, 0.9803921568627451);
+    border: none;
+    color: white;
+}
+
+/* ---------footer----------- */
+footer {
+    background-color: #191919;
+    padding: 55px 0;
+}
+
+footer h4 {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+/* ---------media----------- */
+@media (max-width: 1200px) {
+    #sec3 .block {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    header .navbar-light .navbar-nav .nav-link {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1005px) {
+    .h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec1 p {
+        width: 100%;
+    }
+
+    .sec1 .h3 {
+        line-height: 40px;
+    }
+
+    #sec5 .imgs img {
+        width: 220px;
+        margin: 0 auto 30px;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 770px) {
+    #sec4 .dark {
+        width: 100%;
+    }
+    footer h4 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .h2 {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+
+    header {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 515px) {
+
+    #sec3,
+    #sec4 {
+        padding: 30px 0;
+    }
+
+    #sec4 .dark {
+        padding: 15px;
+    }
+
+    .dark p {
+        margin: 0;
+    }
+
+    .button1,
+    .button2 {
+        margin: 10px;
+    }
+
+    .sec2 {
+        padding: 50px 0;
+    }
+
+    .sec2 .ing {
+        padding: 20px;
+    }
+
+    #sec5 .w-400 {
+        width: 100%;
+    }
+
+}
